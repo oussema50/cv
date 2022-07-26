@@ -1,0 +1,163 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+main{
+    padding: 45px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+main::before
+{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    background-color: #545454;
+}
+main::after
+{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-color: #545454;
+}
+h1,h2,h3,h4
+{
+    color: #545454;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+h2
+{
+    border-bottom: 1px solid #dfdfdf;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
+h3
+{
+    font-size: 22px;
+    padding: 10px 0;
+    font-weight: 900;
+}
+p,span
+{
+    color:#575454;
+    text-transform: capitalize;
+}
+span
+{
+    display: block;
+}
+.row:first-child
+{
+    width: 28%;
+    border-right:1px solid #dfdfdf;
+    
+}
+.row:last-child
+{
+    width:72%
+}
+.skills_content div > p
+{
+    padding: 0 0 10px 25px;
+    position: relative;
+    text-transform: uppercase;
+}
+.skills_content div > p::before
+{
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    left: 5px;
+    background-color: #575454;
+    top: 23%;
+}
+.skills_content div > span
+{
+    padding:0 0 5px 45px
+}
+.skills_content > span
+{
+    padding:0 0 5px 20px
+}
+.personal_info .person_desc
+{
+    padding: 80px 0 10px 70px;
+}
+.personal_info .name
+{
+    font-size: 65px;
+    padding-bottom:30px ;
+}
+.personal_info h3
+{
+    padding:5px 0;
+}
+.contact
+{
+    background-color: #d8d8d8;
+    padding:20px 45px
+}
+ .contact svg
+{
+    color:#161614;    
+}
+.contact div
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contact span
+{
+    text-transform: lowercase;
+    padding-left: 20px;
+}
+.project h2,
+.language h2
+{
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.project_content,
+.language_content
+{
+    padding-left: 45px;
+}
+.language_content .progress
+{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.language_content .progress div
+{
+    height:40px;
+    margin-left: 20px;
+    width:200px;
+    background-color: #d9d9d9;
+}
+.language_content .progress div span
+{
+    background-color: #525252;
+    display: block;
+    height: 100%;
+}
